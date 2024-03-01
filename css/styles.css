@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -7,6 +16,9 @@ body {
     text-decoration: none;
     list-style-type: none;
     cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 h2 h3 p {
@@ -14,8 +26,20 @@ h2 h3 p {
     font-weight: 400;
     color: #2e2f42;
     text-transform: capitalize;
-}
+    margin-top: 0;
+    margin-bottom: 0;
 
+}
+.container {
+    max-width: 1440px;
+    padding-left:156px;
+     padding-right:156px;
+      margin-left: 0 auto;
+       margin-right: 0 ayto;
+}
+.menu{
+    display: inline;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
