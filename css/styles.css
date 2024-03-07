@@ -121,20 +121,16 @@ h2 h3 p {
  .contact-link:focus {
     color: #404bbf;
  }
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .firstsect {
     background-color: #2E2F42;
     text-align: center;
     color: #fff;
+    padding: 188px 0 188px;
 }
 .hero{
     max-width: 1128px;
-    padding-top: 188px;
     padding-right: 316px;
-    padding-bottom: 296px;
     padding-left: 316px;
 }
 h1 {
@@ -145,33 +141,35 @@ h1 {
 }
 .page-title{
     max-width: 496px;
-    max-height: 120px;
 }
 button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
-    border: 1px solid #000;
+    border: none;
     border-radius: 4px;
+    cursor: pointer;
     color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
+    margin-top: 48px;
+    margin-right: 164px;
+    margin-left: 164px;
 }
 button:hover, button:focus{
     background-color: #404bbf;
 }
 .secondsect{
     padding-top: 120px;
-    padding-bottom: 156px;
+    padding-bottom: 120px;
 }
 .container-plan{
     display: flex;
     gap: 24px;
-}
-.secondsect-item {
-    width: calc((100% - 3 * 24) / 4);
 }
 .visually-hidden{
     position: absolute;
@@ -184,6 +182,9 @@ button:hover, button:focus{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.secondsect-item {
+    width: calc((100% - 3 * 24) / 4);
 }
 .plan-title {
     font-weight: 500;
@@ -203,6 +204,7 @@ button:hover, button:focus{
 }
 .thirdsect {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 .thirdsect-container {
     display: flex;
@@ -217,13 +219,12 @@ button:hover, button:focus{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 
 .img{
     background-color: #FFFFFF;
-    margin-bottom: 120px;
 }
 .text-container {
     display: flex;
@@ -231,7 +232,7 @@ button:hover, button:focus{
     justify-content: center;
     flex-direction: column;
     gap: 8px;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .head-team {
     font-weight: 500;
@@ -239,7 +240,8 @@ button:hover, button:focus{
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -248,7 +250,8 @@ button:hover, button:focus{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    margin: 0;
+    text-align: center;
+    margin-top: 0;
 }
 
 .foursect {
@@ -256,7 +259,7 @@ button:hover, button:focus{
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    padding-top: 124px;
+    padding-top: 120px;
     margin-bottom: 120px;
     background: #fff;
 }
@@ -269,6 +272,7 @@ button:hover, button:focus{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-top: 0;
     margin-bottom: 72px;
 }
 .portfolio-list {
@@ -299,7 +303,7 @@ button:hover, button:focus{
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0;
+    margin-bottom: 8px;
 }
 
 .card-content {
@@ -311,7 +315,8 @@ button:hover, button:focus{
     margin: 0;
 }
 .page-footer {
-    display: block;
+    display: inline-block;
+    padding: 100px 0;
 }
 .page-footer {
     background-color: #2e2f42;
@@ -322,12 +327,6 @@ button:hover, button:focus{
     color: #f4f4fd;
     text-align: left;
 }
-.footer-container {
-    display: block;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
- 
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -336,6 +335,8 @@ button:hover, button:focus{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 
 }
 .logo-footer .web-studio{
