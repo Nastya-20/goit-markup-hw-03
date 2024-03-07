@@ -129,10 +129,8 @@ h2 h3 p {
     max-width: 1128px;
     padding-top: 188px;
     padding-right: 316px;
-    padding-bottom: 0;
+    padding-bottom: 296px;
     padding-left: 316px;
-    margin-bottom: 48px;
-    margin-top: 0;
 }
 h1 {
     font-weight: 700;
@@ -147,19 +145,28 @@ h1 {
 button {
     font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
+    border: 1px solid #000;
+    border-radius: 4px;
     color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
 }
 button:hover, button:focus{
     background-color: #404bbf;
 }
+.secondsect{
+    padding-top: 120px;
+    padding-bottom: 156px;
+}
 .container-plan{
     display: flex;
-    align-items: center;
-    padding: 120px  156px;
+    gap: 24px;
+}
+.secondsect-item {
+    width: calc((100% - 3 * 24) / 4);
 }
 .visually-hidden{
     position: absolute;
@@ -179,6 +186,7 @@ button:hover, button:focus{
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .plan-content {
@@ -188,14 +196,14 @@ button:hover, button:focus{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .thirdsect {
-    background-color: #f4f4fd;
+    background: #f4f4fd;
 }
-.thirdsect-container{
+.thirdsect-container {
     display: flex;
-    align-items: center;
- }
+    gap: 24px;
+}
+
 .ourteam {
     font-weight: 700;
     font-size: 36px;
@@ -204,9 +212,21 @@ button:hover, button:focus{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
+
 .img{
     background-color: #FFFFFF;
+    margin-bottom: 120px;
+}
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
 }
 .head-team {
     font-weight: 500;
@@ -214,6 +234,7 @@ button:hover, button:focus{
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
 }
 
 .team-text {
@@ -222,6 +243,7 @@ button:hover, button:focus{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
 .foursect {
@@ -229,15 +251,11 @@ button:hover, button:focus{
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-   }
-.row-one {
-    display: flex;
-    align-items: center;
+    padding-top: 124px;
+    margin-bottom: 120px;
+    background: #fff;
 }
-.row-two {
-    display: flex;
-    align-items: center;
-}
+
 .portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -246,14 +264,37 @@ button:hover, button:focus{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
-
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.img {
+    width: calc((100% - 24px * 2) / 3);
+}
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+    margin: 0;
+}
 .project {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
 }
 
 .card-content {
@@ -262,8 +303,11 @@ button:hover, button:focus{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
-
+.page-footer {
+    display: block;
+}
 .page-footer {
     background-color: #2e2f42;
     font-weight: 400;
@@ -271,8 +315,14 @@ button:hover, button:focus{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
- }
-
+    text-align: left;
+}
+.footer-container {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ 
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -281,7 +331,12 @@ button:hover, button:focus{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
 }
 .logo-footer .web-studio{
     color: #f4f4fd;
+}
+.page-footer-text {
+    text-align: left;
+    max-width: 264px;
 }
