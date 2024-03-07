@@ -126,12 +126,11 @@ h2 h3 p {
     background-color: #2E2F42;
     text-align: center;
     color: #fff;
-    padding: 188px 0 188px;
+    padding: 188px 0;
 }
-.hero{
-    max-width: 1128px;
-    padding-right: 316px;
+.hero-container {
     padding-left: 316px;
+   
 }
 h1 {
     font-weight: 700;
@@ -141,36 +140,36 @@ h1 {
 }
 .page-title{
     max-width: 496px;
+    
 }
 button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
     font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    margin-top: 48px;
-    margin-right: 164px;
-    margin-left: 164px;
 }
 button:hover, button:focus{
     background-color: #404bbf;
+}
+.button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 48px;
+    margin-right: 164px;
+    margin-left: 164px;
 }
 .secondsect{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container-plan{
-    display: flex;
-    gap: 24px;
-}
+
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -182,6 +181,10 @@ button:hover, button:focus{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.container-plan {
+    display: flex;
+    gap: 24px;
 }
 .secondsect-item {
     width: calc((100% - 3 * 24) / 4);
@@ -206,10 +209,6 @@ button:hover, button:focus{
     background: #f4f4fd;
     padding: 120px 0;
 }
-.thirdsect-container {
-    display: flex;
-    gap: 24px;
-}
 
 .ourteam {
     font-weight: 700;
@@ -222,9 +221,14 @@ button:hover, button:focus{
     margin-top: 0;
     margin-bottom: 72px;
 }
-
+.thirdsect-container {
+    display: flex;
+    gap: 24px;
+}
 .img{
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .text-container {
     display: flex;
@@ -262,6 +266,9 @@ button:hover, button:focus{
     padding-top: 120px;
     margin-bottom: 120px;
     background: #fff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 .portfolio {
