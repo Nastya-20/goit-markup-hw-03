@@ -119,7 +119,10 @@ h2 h3 p {
  .contact-link:focus {
     color: #404bbf;
  }
-
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .firstsect {
     background-color: #2E2F42;
     text-align: center;
